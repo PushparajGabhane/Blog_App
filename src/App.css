@@ -43,6 +43,7 @@
   height: 50px;
   border: 2px solid white;
   font-weight: 500;
+  padding: 10px;
 }
 
 .sign-up p {
@@ -66,4 +67,57 @@
 
 .create-form input[type="file"] {
   opacity: 0;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  background: black;
+  padding-top: 10px;
+}
+
+.home div img {
+  height: 100px;
+  width: 100px;
+  border-radius: 25%;
+  background: white;
+  margin-left: 30px;
+}
+
+.nav-links {
+  font-size: larger;
+  font-weight: 600;
+  margin-left: 40%;
+  margin-top: 30px;
+}
+
+.links {
+  margin-left: 10%;
+  text-decoration: none;
+  color: blue;
+  height: 20px;
+  padding: 20px;
+  background: white;
+}
+
+.user-post {
+  width: 90%;
+  margin: auto;
+  border: 1px solid grey;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.user-post h3 {
+  color: lawngreen;
+}
+
+.user-post img {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.user-post {
+  color: blue;
 }
